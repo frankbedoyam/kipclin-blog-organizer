@@ -1,0 +1,26 @@
+/* Reset y tipografía */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+/* Ajustes para los gráficos */
+canvas {
+  display: block;              /* evita inline-block que puede romper layout */
+  max-width: 80% !important;  /* nunca más ancho que su contenedor */
+  max-height: 80% !important; /* nunca más alto que su contenedor */
+}
