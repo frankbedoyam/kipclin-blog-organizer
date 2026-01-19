@@ -82,7 +82,7 @@ const BlogOrganizer = () => {
     { id: 79, title: "Prepárate para abrir tu negocio tras el confinamiento", author: "Natalia Villa", date: "2020-05-20", hits: 1490, category: "General" },
     { id: 78, title: "Limpieza y desinfección de ropa en tiempos de Coronavirus", author: "Natalia Villa", date: "2020-05-18", hits: 2430, category: "Hogar" },
     { id: 77, title: "3 cosas básicas para limpiar y desinfectar bien los pisos", author: "Natalia Villa", date: "2020-05-11", hits: 5028, category: "Hogar" },
-    { id: 76, title: "Conoce la diferencia entre desinfectar y sanitizar", author: "Natalia Villa", date: "2020-05-04", hits: 15090, category: "General" }
+    { id: 76, title: "Conoce la diferencia entre desinfectar y sanitizar", author: "Natalia Villa", date: "2020-05-04", hits: 15090, category: "General" },
    { id: 10, title: "6 razones para comprar productos de aseo en KipClin", author: "Natalia Villa", date: "2019-02-18", hits: 4056, category: "KipClin" },
   { id: 11, title: "Cómo quitar las manchas de la ropa en un simple paso", author: "Natalia Villa", date: "2019-02-18", hits: 2579, category: "Hogar" },
   { id: 12, title: "El producto de limpieza que desinfecta utensilios de cocina", author: "Natalia Villa", date: "2019-02-18", hits: 2345, category: "Productos" },
@@ -146,7 +146,7 @@ const BlogOrganizer = () => {
   { id: 70, title: "Amonio Cuaternario", author: "Super User", date: "2020-04-11", hits: 471, category: "Productos" },
   { id: 71, title: "Desinfectante Orgánico", author: "Super User", date: "2020-04-11", hits: 3121, category: "Productos" },
   { id: 72, title: "¿Cómo preparar el amonio cuaternario de manera segura?", author: "Natalia Villa", date: "2020-04-16", hits: 334915, category: "Bioseguridad" },
-  { id: 73, title: "Biguanidina en productos desinfectantes, qué es, usos e instrucciones", author: "Natalia Villa", date: "2020-04-23", hits: 19867, category: "Bioseguridad" }
+  { id: 73, title: "Biguanidina en productos desinfectantes, qué es, usos e instrucciones", author: "Natalia Villa", date: "2020-04-23", hits: 19867, category: "Bioseguridad" },
 ];
 
   // Derivados para filtros
