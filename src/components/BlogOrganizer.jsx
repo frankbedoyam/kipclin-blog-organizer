@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
-import Navbar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 import SortIcon from "./SortIcon";
 import { Chart, registerables } from "chart.js";
 
@@ -193,7 +193,7 @@ const BlogOrganizer = ({ articles = [] }) => {
   return (
     <div>
       {/* Barra de navegación */}
-      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <NavBar activeTab={activeTab} setActiveTab={setActiveTab} />
 
       {/* Título */}
       <h1 className="p-4 text-xl font-bold">Organizador del Blog</h1>
